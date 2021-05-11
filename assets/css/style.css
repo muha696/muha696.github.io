@@ -1,0 +1,151 @@
+body {
+margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+
+}
+
+* 
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 35px 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+   font-family: 'Russo One', sans-serif;
+  font-size: 25px; 
+    color: #03701f;
+}
+
+
+/* Nav */
+
+.nav {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.nav__link {
+    margin-left: 50px;
+    color: #03701f;
+    text-decoration: none;
+    opacity: .7;
+    transition: opacity .15s
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+/* Intro */
+
+
+.intro {
+    height: 750px;
+    background: url(img/tes_logo.jpg) center / cover;
+    opacity: 0.4;
+}
+
+/* About */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid #03701f;
+}
+
+.about__title {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about__discription {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Specs */
+
+.specialities {
+    display: flex;
+    margin: 100px 0;
+    
+}
+
+.specialities__icon {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    border-radius: 30px;
+    margin-bottom: 20px;
+} 
+
+.specialities__item
+{
+    width: 33.33333%;
+    margin: 0 20px;
+    background-color: beige;
+    border-radius: 30px;
+}
+
+.speciatities__logo {
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.specialities__discription {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    padding: 15px;
+}
+
+
+ 
+
+.
